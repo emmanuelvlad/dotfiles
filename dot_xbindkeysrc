@@ -1,0 +1,7 @@
+# Previous desktop
+"qdbus org.kde.KWin /KWin previousDesktop"
+    Control+Mod2+Mod4 + Super_L + b:8
+
+# Next desktop
+"qdbus org.kde.KWin /KWin nextDesktop"
+    Control+Mod2+Mod4 + Super_L + b:9
