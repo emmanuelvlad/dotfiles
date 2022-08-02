@@ -1,4 +1,4 @@
- "(google\-chrome)|(discord)|(brave)|(code)|(spotify)|(notion.*)|(mailspring)|(slack)"
+"(google\-chrome)|(discord)|(brave)|(code)|(spotify)|(notion.*)|(mailspring)|(slack)|(jetbrains)"
  None,      Up,   Button4, 3
  None,      Down, Button5, 3
  ".*"
