@@ -110,9 +110,12 @@ alias stream=$HOME/Documents/scripts/stream.sh
 alias sptf=$HOME/Documents/misc/spotifyd-tui.sh/spotify.sh
 alias dev="$HOME/Documents/scripts/dev.sh"
 alias sync="$HOME/Documents/scripts/sync.sh"
-alias leasy="cd $HOME/Documents/Leasy/git"
+alias leasy="cd $HOME/Documents/leasy"
 alias tctl="docker exec temporal-admin-tools tctl"
 alias gitlab="docker run --rm -v $PWD:$PWD -v /var/run/docker.sock:/var/run/docker.sock -v /opt/gitlab-runner/config:/etc/gitlab-runner --workdir $PWD gitlab/gitlab-runner"
 
 [ -s "$HOME/.jabba/jabba.sh" ] && source "$HOME/.jabba/jabba.sh"
 alias ssh="kitty +kitten ssh"
+
+alias mbservices="kitty --session sessions/services.conf --title services &; disown"
+alias servers="kitty --session sessions/servers.conf --title servers &; disown"
